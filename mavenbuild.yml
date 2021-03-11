@@ -1,0 +1,7 @@
+---
+ - name: Maven Clean and Build
+   hosts: all
+   become: yes
+   tasks:
+    - name: maven running
+      shell: "mvn clean install"
