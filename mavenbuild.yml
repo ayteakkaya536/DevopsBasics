@@ -4,6 +4,7 @@
    # become: yes
    tasks:
     - name: maven running
-      command: "mvn clean install"
       #shell: "cd /var/lib/jenkins/workspace/test"
-      #shell: "mvn clean install"
+      shell: "mvn clean install"
+      args:
+        chdir: /var/lib/jenkins/workspace/test/
