@@ -4,4 +4,4 @@
    # become: yes
    tasks:
     - name: maven running
-      shell: "mvn clean install"
+      shell: "./mvn clean install"
