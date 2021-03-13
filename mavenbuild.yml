@@ -6,5 +6,5 @@
     - name: maven running
       #shell: "cd /var/lib/jenkins/workspace/test"
       shell: "mvn test install"
-      args:
-        chdir: /var/lib/jenkins/workspace/test
+      #args:
+        #chdir: /var/lib/jenkins/workspace/test
