@@ -5,6 +5,6 @@
    tasks:
     - name: maven running
       #shell: "cd /var/lib/jenkins/workspace/test"
-      shell: "mvn clean install"
+      shell: "mvn test install"
       args:
         chdir: /var/lib/jenkins/workspace/test/
