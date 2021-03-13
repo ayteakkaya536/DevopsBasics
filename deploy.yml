@@ -4,4 +4,4 @@
    become: yes
    tasks:
     - name: copy the war file 
-      copy: src=webapp/target/webapp.war dest=/usr/local/tomcat/webapps/
+      copy: src=webapp/target/webapp.war dest=/usr/local/tomcat7/webapps/
